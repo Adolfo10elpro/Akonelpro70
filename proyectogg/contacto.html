@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condorito - Contacto</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="description" content="Ponte en contacto con nosotros para cualquier consulta o sugerencia sobre Condorito.">
+    <meta name="keywords" content="Condorito, contacto, formulario, preguntas, sugerencias">
+    <meta name="author" content="Adolfo Cirilo Tenorio">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content container">
+            <a href="index.html" class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Condorito_logo.svg/1200px-Condorito_logo.svg.png" alt="Logo de Condorito">
+                <h1>Condorito</h1>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="contact-section" style="padding-top: 60px; padding-bottom: 60px;">
+            <h2>¡Exijo una explicación! Contáctanos</h2>
+            <p>¿Tienes alguna pregunta, sugerencia o simplemente quieres compartir tu viñeta favorita de Condorito? ¡Estamos aquí para escucharte! Completa el siguiente formulario y te responderemos a la brevedad.</p>
+
+            <div class="contact-form-container" style="background-color: var(--card-background); border-radius: var(--border-radius-md); box-shadow: var(--shadow-light); padding: 30px; margin-top: 40px;">
+                <form action="#" method="POST" class="contact-form" style="display: grid; gap: 20px;">
+                    <div class="form-group">
+                        <label for="name" style="display: block; margin-bottom: 8px; font-weight: bold; color: var(--text-color-dark);">Nombre:</label>
+                        <input type="text" id="name" name="name" required style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); font-size: 1em;">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" style="display: block; margin-bottom: 8px; font-weight: bold; color: var(--text-color-dark);">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); font-size: 1em;">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" style="display: block; margin-bottom: 8px; font-weight: bold; color: var(--text-color-dark);">Asunto:</label>
+                        <input type="text" id="subject" name="subject" required style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); font-size: 1em;">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" style="display: block; margin-bottom: 8px; font-weight: bold; color: var(--text-color-dark);">Mensaje:</label>
+                        <textarea id="message" name="message" rows="6" required style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); font-size: 1em; resize: vertical;"></textarea>
+                    </div>
+                    <button type="submit" class="primary-btn" style="width: auto; padding: 12px 25px; border: none; border-radius: var(--border-radius-sm); background-color: var(--primary-color); color: white; font-size: 1.1em; cursor: pointer; transition: background-color var(--transition-speed) ease; justify-self: start;">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; <time datetime="2025">2025</time> Adolfo Cirilo Tenorio. Todos los derechos reservados.</p>
+            <p><small>Este sitio es un homenaje y proyecto educativo, no está afiliado oficialmente a las publicaciones de Condorito.</small></p>
+            <div class="social-links">
+                <a href="https://facebook.com/condoritooficial" target="_blank" aria-label="Facebook de Condorito"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook"></a>
+                <a href="https://twitter.com/condoritooficial" target="_blank" aria-label="Twitter de Condorito"><img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter"></a>
+                <a href="https://instagram.com/condoritooficial" target="_blank" aria-label="Instagram de Condorito"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
